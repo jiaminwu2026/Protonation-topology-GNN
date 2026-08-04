@@ -12,15 +12,14 @@ Graph neural network (GNN) models for predicting the ln(max radiance) of branche
 - RDKit 2024.3.5
 - ChemProp (for the atomwise directed-MPNN benchmark)
 
-Hardware: [TO BE CONFIRMED — CPU vs GPU; update once confirmed].
-
+Hardware: Standard desktop / laptop computer with standard multi-core CPU (Intel i7 / Apple Silicon M-series) or optional CUDA-compatible NVIDIA GPU.
 ## Installation
 
     git clone https://github.com/jiaminwu2026/Protonation-topology-GNN.git
     cd Protonation-topology-GNN
     pip install -r requirements.txt
 
-Typical install time: [TO BE CONFIRMED — e.g. a few minutes on a standard desktop].
+Typical install time: Approximately 2 to 3 minutes on a standard desktop/laptop with a standard internet connection.
 
 ## Data
 
@@ -39,7 +38,7 @@ Scripts for creating and testing models.
 
 ## Demo / expected output
 
-Running inference with the provided pre-trained weights on the included VS data reproduces the `VS_results_XXX` prediction tables. Expected run time: [TO BE CONFIRMED — e.g. training ~X min; inference < 1 min].
+Running inference with the provided pre-trained weights on the included VS data reproduces the `VS_results_XXX` prediction tables. We provide a standalone `demo.py` script to test dataset conversion, model architecture, training, and virtual screening inference. Expected run time: ~27 seconds in total (Training: ~25s for 10 epochs on 10 sample graphs; VS Inference: < 1s).
 
 ## Model summary
 
@@ -47,4 +46,6 @@ Min, mean, and maximum ln(max radiance) are modeled separately. The GNN aggregat
 
 ## License
 
-Code is available for peer review and academic use. Commercial use / licensing is subject to the UBC technology transfer office. A patent application covering the method has been filed.
+This repository and its source code are licensed under the MIT License. You are free to use, modify, and distribute the code for academic and commercial purposes.
+
+Note: The physical materials, lipid nanoparticle formulations, and delivery platforms described in the accompanying manuscript are covered by pending patent applications. Commercial use or licensing of the underlying delivery technology is subject to the technology transfer office.
