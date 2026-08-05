@@ -46,6 +46,8 @@ Min, mean, and maximum ln(max radiance) are modeled separately. The GNN aggregat
 
 ## License
 
-This repository and its source code are licensed under the MIT License. You are free to use, modify, and distribute the code for academic and commercial purposes.
+## License
 
-Note: The physical materials, lipid nanoparticle formulations, and delivery platforms described in the accompanying manuscript are covered by pending patent applications. Commercial use or licensing of the underlying delivery technology is subject to the technology transfer office.
+The source code in this repository is released under the MIT License, allowing reuse, modification, and distribution of the software.
+
+The lipid nanoparticle formulations, delivery platforms, experimental materials, and other technologies described in the accompanying manuscript are not included under this software license. These technologies are protected by pending patent applications, and any commercial use, licensing, or technology transfer involving the underlying inventions should be directed through the appropriate technology transfer office.
